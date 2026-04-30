@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #7D9689;
+  --white-color: #FAFAF9;
+  --accent-color:#d9e6e0;
+  --dark-color: #59645c;
+  --experience-color: #EDF6F0;
+  --border-color: #cad4cf;
+  --card-color: #424844;
+}  
+
+.navcolor {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.navtext {color: var(--primary-color);
+}
+
+.textcolor{
+  color: var(--card-color);
+}
+
+.encabezado {
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  background-color: var(--accent-color);
+  color: var(--dark-color);
+  font-size: 0.8rem;
+}
+
+.boton {
+  background-color: var(--primary-color);
+  border-radius: 24px;
+  color: var(--white-color);
+}
+
+body {
+  background-color: #F3FBF5;
+}
+
+.experiencia {
+  background-color: var(--experience-color);
+}
+
+.card {
+  background-color: var(--white-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
